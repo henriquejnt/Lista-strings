@@ -16,7 +16,7 @@ def nome_escada(n):
 
 def nome_escada_invertida (inverte):
     print("=-"*20)
-    lista = list(inverte)
+    lista = list(inverte) 
     contador = len(lista)
     for palavra in range(len(lista)):
         print(lista[:contador])
